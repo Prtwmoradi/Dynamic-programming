@@ -1,0 +1,10 @@
+Dynamic Programming:
+Is an algorithmic technique for solving an optimization problem by breaking into simpler subproblems and utilization the fact that the optimal solution to the overall problem depends upon the optimal solution to its subproblem.
+
+Dynamic programing is the optimization of divide and conquer algorithm. Here we divide a problem to subproblems. 
+Main properties:
+1.	Optimal substructure: if any problem’s overall optimal solution can be constructed from the optimal solutions of its subproblem then this program has optimal substructure.
+2.	Overlapping subproblem: subproblem are smaller versions of the original problem, any problem has overlapping sub- problems if finding its solution involves solving the same subproblem multiple times. (using memory to remember)
+2 different methods in dynamic programming:
+1.	Top down with memorization (Mem).
+2.	Bottom up with Tabulation. (solving problem bottom up)
